@@ -1,0 +1,423 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 04:45:40
+* VERSION: 1.4.5
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.29                                |7.4.16
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2022-04-21 16:41:47
+WP VERSION__________: 5.9
+DUP VERSION_________: 1.4.5
+DB__________________: 10.3.24
+DB TABLES___________: 13
+DB ROWS_____________: 650
+DB FILE SIZE________: 6.31MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.16 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/7.4.16
+DOC ROOT____________: "C:/xampp/htdocs/dell_evento"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://dell.okcomputer.com.pe/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/dell_evento/20220421_okcompuer_[HASH]_20220421164147_archive.zip"
+SIZE________________: 81.37MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-220423164540-62642d34cfc56-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 04:45:41 - RUNTIME: 0.1552 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 04:46:53
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.37 -- Build Server: 10.3.24
+FILE SIZE:	dup-database__[HASH].sql (4.4MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/dell_evento/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.37] is less than the build version [10.3.24].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	13
+RENAMED TABLES:	0
+QUERIES RAN:	128
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (161)
+wp_postmeta: (222)
+wp_posts: (193)
+wp_term_relationships: (6)
+wp_term_taxonomy: (3)
+wp_termmeta: (0)
+wp_terms: (3)
+wp_usermeta: (25)
+wp_users: (1)
+Removed '43' cache/transient rows
+
+INSERT DATA RUNTIME: 1.2024 sec.
+STEP-2 COMPLETE @ 04:46:55 - RUNTIME: 1.2251 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+INSTALLER ERROR:
+
+WARNING: Unable to update file permissions and write to dup-wp-config-arc__[HASH].txt.  Check that the wp-config.php is in the archive.zip and check with your host or administrator to enable PHP to write to the wp-config.php file.  If performing a 'Manual Extraction' please be sure to select the 'Manual Archive Extraction' option on step 1 under options.
+
+CONTINUE EXCEPTION: 
+WARNING: Unable to update file permissions and write to dup-wp-config-arc__[HASH].txt.  Check that the wp-config.php is in the archive.zip and check with your host or administrator to enable PHP to write to the wp-config.php file.  If performing a 'Manual Extraction' please be sure to select the 'Manual Archive Extraction' option on step 1 under options.
+TRACE:
+#0 C:\xampp\htdocs\dell_evento\dup-installer\classes\class.s3.func.php(386): DUPX_Log::error('\nWARNING: Unabl...')
+#1 C:\xampp\htdocs\dell_evento\dup-installer\classes\class.s3.func.php(481): DUPX_S3_Funcs->getWpConfigTransformer()
+#2 C:\xampp\htdocs\dell_evento\dup-installer\classes\class.s3.func.php(450): DUPX_S3_Funcs->setGlobalSearchAndReplaceList()
+#3 C:\xampp\htdocs\dell_evento\dup-installer\classes\class.s3.func.php(91): DUPX_S3_Funcs->setReplaceList()
+#4 C:\xampp\htdocs\dell_evento\dup-installer\classes\class.s3.func.php(234): DUPX_S3_Funcs->initData()
+#5 C:\xampp\htdocs\dell_evento\dup-installer\classes\class.s3.func.php(271): DUPX_S3_Funcs->getPost()
+#6 C:\xampp\htdocs\dell_evento\dup-installer\classes\class.s3.func.php(313): DUPX_S3_Funcs->dbConnection()
+#7 C:\xampp\htdocs\dell_evento\dup-installer\ctrls\ctrl.s3.php(28): DUPX_S3_Funcs->initLog()
+#8 C:\xampp\htdocs\dell_evento\dup-installer\main.installer.php(247): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+WP Config ark file don' exists
+htaccess ark file don' exists
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:47:38
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "OkComputer"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/padincom/okcomputer.padin.com.pe"
+path_new______________: "C:/xampp/htdocs/dell_evento"
+siteurl_______________: "https://dell.okcomputer.com.pe"
+url_old_______________: "https://okcomputer.padin.com.pe"
+url_new_______________: "https://dell.okcomputer.com.pe"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/padincom/okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  2:"\/home\/padincom\/okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  3:"%2Fhome%2Fpadincom%2Fokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  4:"\home\padincom\okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  5:"\\home\\padincom\\okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  6:"%5Chome%5Cpadincom%5Cokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  7:"//okcomputer.padin.com.pe" =======================> "//dell.okcomputer.com.pe"
+	SEARCH  8:"\/\/okcomputer.padin.com.pe" =====================> "\/\/dell.okcomputer.com.pe"
+	SEARCH  9:"%2F%2Fokcomputer.padin.com.pe" ===================> "%2F%2Fdell.okcomputer.com.pe"
+	SEARCH 10:"http://dell.okcomputer.com.pe" ===================> "https://dell.okcomputer.com.pe"
+	SEARCH 11:"http:\/\/dell.okcomputer.com.pe" =================> "https:\/\/dell.okcomputer.com.pe"
+	SEARCH 12:"http%3A%2F%2Fdell.okcomputer.com.pe" =============> "https%3A%2F%2Fdell.okcomputer.com.pe"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   161][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/padincom/okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  2:"\/home\/padincom\/okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  3:"%2Fhome%2Fpadincom%2Fokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  4:"\home\padincom\okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  5:"\\home\\padincom\\okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  6:"%5Chome%5Cpadincom%5Cokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  7:"//okcomputer.padin.com.pe" =======================> "//dell.okcomputer.com.pe"
+	SEARCH  8:"\/\/okcomputer.padin.com.pe" =====================> "\/\/dell.okcomputer.com.pe"
+	SEARCH  9:"%2F%2Fokcomputer.padin.com.pe" ===================> "%2F%2Fdell.okcomputer.com.pe"
+	SEARCH 10:"http://dell.okcomputer.com.pe" ===================> "https://dell.okcomputer.com.pe"
+	SEARCH 11:"http:\/\/dell.okcomputer.com.pe" =================> "https:\/\/dell.okcomputer.com.pe"
+	SEARCH 12:"http%3A%2F%2Fdell.okcomputer.com.pe" =============> "https%3A%2F%2Fdell.okcomputer.com.pe"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   222][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/padincom/okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  2:"\/home\/padincom\/okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  3:"%2Fhome%2Fpadincom%2Fokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  4:"\home\padincom\okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  5:"\\home\\padincom\\okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  6:"%5Chome%5Cpadincom%5Cokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  7:"//okcomputer.padin.com.pe" =======================> "//dell.okcomputer.com.pe"
+	SEARCH  8:"\/\/okcomputer.padin.com.pe" =====================> "\/\/dell.okcomputer.com.pe"
+	SEARCH  9:"%2F%2Fokcomputer.padin.com.pe" ===================> "%2F%2Fdell.okcomputer.com.pe"
+	SEARCH 10:"http://dell.okcomputer.com.pe" ===================> "https://dell.okcomputer.com.pe"
+	SEARCH 11:"http:\/\/dell.okcomputer.com.pe" =================> "https:\/\/dell.okcomputer.com.pe"
+	SEARCH 12:"http%3A%2F%2Fdell.okcomputer.com.pe" =============> "https%3A%2F%2Fdell.okcomputer.com.pe"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   193][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/padincom/okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  2:"\/home\/padincom\/okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  3:"%2Fhome%2Fpadincom%2Fokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  4:"\home\padincom\okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  5:"\\home\\padincom\\okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  6:"%5Chome%5Cpadincom%5Cokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  7:"//okcomputer.padin.com.pe" =======================> "//dell.okcomputer.com.pe"
+	SEARCH  8:"\/\/okcomputer.padin.com.pe" =====================> "\/\/dell.okcomputer.com.pe"
+	SEARCH  9:"%2F%2Fokcomputer.padin.com.pe" ===================> "%2F%2Fdell.okcomputer.com.pe"
+	SEARCH 10:"http://dell.okcomputer.com.pe" ===================> "https://dell.okcomputer.com.pe"
+	SEARCH 11:"http:\/\/dell.okcomputer.com.pe" =================> "https:\/\/dell.okcomputer.com.pe"
+	SEARCH 12:"http%3A%2F%2Fdell.okcomputer.com.pe" =============> "https%3A%2F%2Fdell.okcomputer.com.pe"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/padincom/okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  2:"\/home\/padincom\/okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  3:"%2Fhome%2Fpadincom%2Fokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  4:"\home\padincom\okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  5:"\\home\\padincom\\okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  6:"%5Chome%5Cpadincom%5Cokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  7:"//okcomputer.padin.com.pe" =======================> "//dell.okcomputer.com.pe"
+	SEARCH  8:"\/\/okcomputer.padin.com.pe" =====================> "\/\/dell.okcomputer.com.pe"
+	SEARCH  9:"%2F%2Fokcomputer.padin.com.pe" ===================> "%2F%2Fdell.okcomputer.com.pe"
+	SEARCH 10:"http://dell.okcomputer.com.pe" ===================> "https://dell.okcomputer.com.pe"
+	SEARCH 11:"http:\/\/dell.okcomputer.com.pe" =================> "https:\/\/dell.okcomputer.com.pe"
+	SEARCH 12:"http%3A%2F%2Fdell.okcomputer.com.pe" =============> "https%3A%2F%2Fdell.okcomputer.com.pe"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/padincom/okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  2:"\/home\/padincom\/okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  3:"%2Fhome%2Fpadincom%2Fokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  4:"\home\padincom\okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  5:"\\home\\padincom\\okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  6:"%5Chome%5Cpadincom%5Cokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  7:"//okcomputer.padin.com.pe" =======================> "//dell.okcomputer.com.pe"
+	SEARCH  8:"\/\/okcomputer.padin.com.pe" =====================> "\/\/dell.okcomputer.com.pe"
+	SEARCH  9:"%2F%2Fokcomputer.padin.com.pe" ===================> "%2F%2Fdell.okcomputer.com.pe"
+	SEARCH 10:"http://dell.okcomputer.com.pe" ===================> "https://dell.okcomputer.com.pe"
+	SEARCH 11:"http:\/\/dell.okcomputer.com.pe" =================> "https:\/\/dell.okcomputer.com.pe"
+	SEARCH 12:"http%3A%2F%2Fdell.okcomputer.com.pe" =============> "https%3A%2F%2Fdell.okcomputer.com.pe"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/padincom/okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  2:"\/home\/padincom\/okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  3:"%2Fhome%2Fpadincom%2Fokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  4:"\home\padincom\okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  5:"\\home\\padincom\\okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  6:"%5Chome%5Cpadincom%5Cokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  7:"//okcomputer.padin.com.pe" =======================> "//dell.okcomputer.com.pe"
+	SEARCH  8:"\/\/okcomputer.padin.com.pe" =====================> "\/\/dell.okcomputer.com.pe"
+	SEARCH  9:"%2F%2Fokcomputer.padin.com.pe" ===================> "%2F%2Fdell.okcomputer.com.pe"
+	SEARCH 10:"http://dell.okcomputer.com.pe" ===================> "https://dell.okcomputer.com.pe"
+	SEARCH 11:"http:\/\/dell.okcomputer.com.pe" =================> "https:\/\/dell.okcomputer.com.pe"
+	SEARCH 12:"http%3A%2F%2Fdell.okcomputer.com.pe" =============> "https%3A%2F%2Fdell.okcomputer.com.pe"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/padincom/okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  2:"\/home\/padincom\/okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  3:"%2Fhome%2Fpadincom%2Fokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  4:"\home\padincom\okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  5:"\\home\\padincom\\okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  6:"%5Chome%5Cpadincom%5Cokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  7:"//okcomputer.padin.com.pe" =======================> "//dell.okcomputer.com.pe"
+	SEARCH  8:"\/\/okcomputer.padin.com.pe" =====================> "\/\/dell.okcomputer.com.pe"
+	SEARCH  9:"%2F%2Fokcomputer.padin.com.pe" ===================> "%2F%2Fdell.okcomputer.com.pe"
+	SEARCH 10:"http://dell.okcomputer.com.pe" ===================> "https://dell.okcomputer.com.pe"
+	SEARCH 11:"http:\/\/dell.okcomputer.com.pe" =================> "https:\/\/dell.okcomputer.com.pe"
+	SEARCH 12:"http%3A%2F%2Fdell.okcomputer.com.pe" =============> "https%3A%2F%2Fdell.okcomputer.com.pe"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/padincom/okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  2:"\/home\/padincom\/okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  3:"%2Fhome%2Fpadincom%2Fokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  4:"\home\padincom\okcomputer.padin.com.pe" ==========> "C:/xampp/htdocs/dell_evento"
+	SEARCH  5:"\\home\\padincom\\okcomputer.padin.com.pe" =======> "C:\/xampp\/htdocs\/dell_evento"
+	SEARCH  6:"%5Chome%5Cpadincom%5Cokcomputer.padin.com.pe" ====> "C%3A%2Fxampp%2Fhtdocs%2Fdell_evento"
+	SEARCH  7:"//okcomputer.padin.com.pe" =======================> "//dell.okcomputer.com.pe"
+	SEARCH  8:"\/\/okcomputer.padin.com.pe" =====================> "\/\/dell.okcomputer.com.pe"
+	SEARCH  9:"%2F%2Fokcomputer.padin.com.pe" ===================> "%2F%2Fdell.okcomputer.com.pe"
+	SEARCH 10:"http://dell.okcomputer.com.pe" ===================> "https://dell.okcomputer.com.pe"
+	SEARCH 11:"http:\/\/dell.okcomputer.com.pe" =================> "https:\/\/dell.okcomputer.com.pe"
+	SEARCH 12:"http%3A%2F%2Fdell.okcomputer.com.pe" =============> "https%3A%2F%2Fdell.okcomputer.com.pe"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:615 	|	 Cells:6144 
+UPDATED:	Tables:3 	|	 Rows:200 	|	 Cells:313 
+ERRORS:		0 
+RUNTIME:	0.571900 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	WP-CONFIG ARK FILE NOT FOUND
+	WP-CONFIG ARK FILE:
+ - 'dup-wp-config-arc__[HASH].txt'
+	SKIP FILE UPDATES
+
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: <b>wp-config.php not found.</b><br><br>No action on the wp-config was possible.<br>Be sure to insert a properly modified wp-config for correct wordpress operation.
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+[PHP ERR][WARN] MSG:file_get_contents(C:/xampp/htdocs/dell_evento/dup-installer/dup-orig-wp-config__[HASH].txt): failed to open stream: No such file or directory [CODE:2|FILE:C:\xampp\htdocs\dell_evento\dup-installer\classes\class.s3.func.php|LINE:1246]
+[PHP ERR][WARN] MSG:file_get_contents(C:/xampp/htdocs/dell_evento/wp-config.php): failed to open stream: No such file or directory [CODE:2|FILE:C:\xampp\htdocs\dell_evento\dup-installer\classes\class.s3.func.php|LINE:1252]
+[PHP ERR][WARN] MSG:file_get_contents(C:/xampp/htdocs/dell_evento/dup-installer/dup-orig-htaccess__[HASH].txt): failed to open stream: No such file or directory [CODE:2|FILE:C:\xampp\htdocs\dell_evento\dup-installer\classes\class.s3.func.php|LINE:1223]
+
+STEP-3 COMPLETE @ 04:47:39 - RUNTIME: 0.6428 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] wp-config.php not found
+	SECTIONS: general
+	LONG MSG: Error updating wp-config file.<br>
+The installation is finished but check the wp-config.php file and manually update the incorrect values.
+
+-----------------------
+[WARNING] wp-config not found
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: <b>wp-config.php not found.</b><br><br>No action on the wp-config was possible.<br>Be sure to insert a properly modified wp-config for correct wordpress operation.
+
+====================================

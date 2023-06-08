@@ -1,0 +1,24 @@
+[Apr 23 16:45:34] 
+[Apr 23 16:45:34] ==DUPLICATOR INSTALLER BOOTSTRAP v1.4.5==
+[Apr 23 16:45:34] ----------------------------------------------------
+[Apr 23 16:45:34] Installer bootstrap start
+[Apr 23 16:45:34] Manual extract found so not going to extract dup-installer dir
+[Apr 23 16:45:34] ERROR: Didn't need to extract the installer.
+[Apr 23 16:45:34] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer<br/>
+[Apr 23 16:45:34] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/assets<br/>
+[Apr 23 16:45:34] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/classes<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/ctrls<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/favicon<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/lib<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/views<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/dup-archive__[HASH].txt<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/dup-database__[HASH].sql<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/dup-installer-csrf__[HASH].txt<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/dup-installer-log__[HASH].txt<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/dup-installer-notices__[HASH].json<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/dup-installer-state_[HASH].txt<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/dup-scan__[HASH].json<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/index.php<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/main.installer.php<br/>
+[Apr 23 16:45:35] Set permissions of C:/xampp/htdocs/dell_evento/dup-installer/php_error__[HASH].log<br/>
+[Apr 23 16:45:35] DONE: No detected errors so redirecting to the main installer. Main Installer URI = https://dell.okcomputer.com.pe/dup-installer/main.installer.php

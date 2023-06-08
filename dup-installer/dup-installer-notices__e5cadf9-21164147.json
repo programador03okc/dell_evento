@@ -1,0 +1,56 @@
+{
+    "globalData": {
+        "uniqueCountId": 0
+    },
+    "nextStep": [],
+    "finalReport": {
+        "wp-config-transformer-exception": {
+            "shortMsg": "wp-config.php not found",
+            "level": 3,
+            "longMsg": "Error updating wp-config file.<br>\nThe installation is finished but check the wp-config.php file and manually update the incorrect values.",
+            "sections": [
+                "general"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "html"
+        },
+        "wp-config-not-found": {
+            "shortMsg": "wp-config not found",
+            "level": 3,
+            "longMsg": "WP-CONFIG NOTICE: <b>wp-config.php not found.<\/b><br><br>No action on the wp-config was possible.<br>Be sure to insert a properly modified wp-config for correct wordpress operation.",
+            "sections": [
+                "general"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "html"
+        },
+        "wp-config-changes": {
+            "shortMsg": "wp-config.php changes",
+            "level": 0,
+            "longMsg": "        <a class=\"dup-ligthbox-link\" data-dup-ligthbox=\"dup-html-id-1-1650732459-5453\" >wp-config.php changes<\/a>\r\n        <div id=\"dup-html-id-1-1650732459-5453\" class=\"dub-ligthbox-content close\">\r\n            <div class=\"wrapper\" >\r\n                <h2 class=\"title\" >WP-CONFIG.PHP COMPARE<\/h2>\r\n                <div class=\"content\" ><div class=\"row-cols-2\"><div class=\"col col-1\"><b>Original wp-config.php<\/b><pre>Can read origin wp-config.php file<\/pre><\/div><div class=\"col col-2\"><b>New wp-config.php<\/b><pre>Can read wp-config.php file<\/pre><\/div><\/div><\/div>                <button class=\"close-button\" title=\"Close\" ><i class=\"fa fa-2x fa-times\"><\/i><\/button>\r\n            <\/div>\r\n        <\/div>\r\n        ",
+            "sections": [
+                "changes"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": true,
+            "longMsgMode": "html"
+        },
+        "htaccess-changes": {
+            "shortMsg": "htaccess changes",
+            "level": 0,
+            "longMsg": "        <a class=\"dup-ligthbox-link\" data-dup-ligthbox=\"dup-html-id-2-1650732459-5459\" >.htaccess changes<\/a>\r\n        <div id=\"dup-html-id-2-1650732459-5459\" class=\"dub-ligthbox-content close\">\r\n            <div class=\"wrapper\" >\r\n                <h2 class=\"title\" >HTACCESS COMPARE<\/h2>\r\n                <div class=\"content\" ><div class=\"row-cols-2\"><div class=\"col col-1\"><b>Original .htaccess<\/b><pre><\/pre><\/div><div class=\"col col-2\"><b>New .htaccess<\/b><pre>#This Apache config file was created by Duplicator Installer on 2022-04-23 16:47:38.\n#The original can be found in archived file with the name .htaccess__[HASH]\n\r\n# BEGIN WordPress\r\n&lt;IfModule mod_rewrite.c&gt;\r\nRewriteEngine On\r\nRewriteBase \/\r\nRewriteRule ^index\\.php$ - [L]\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\nRewriteRule . \/index.php [L]\r\n&lt;\/IfModule&gt;\r\n# END WordPress<\/pre><\/div><\/div><\/div>                <button class=\"close-button\" title=\"Close\" ><i class=\"fa fa-2x fa-times\"><\/i><\/button>\r\n            <\/div>\r\n        <\/div>\r\n        ",
+            "sections": [
+                "changes"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": true,
+            "longMsgMode": "html"
+        }
+    }
+}

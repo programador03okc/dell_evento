@@ -1,0 +1,18 @@
+/*======Module Icon CSS Start ========*/
+.et-db #et-boc .et-l .et-fb-modules-list li[class^=dnxte] span {
+	margin-top: 5px;
+}
+.et-db #et-boc .et-l .et-fb-modules-list li[class^=dnxte] {
+    font-size: 11px;
+    color: #fff;
+    background: #266DE8!important;
+    position: relative;
+}
+.et-db #et-boc .et-l .et-fb-modules-list li[class^=dnxte]:hover {
+    background: linear-gradient(272deg,#772ADB 12%,#266DE8 100%)!important;
+    color: #fff;
+}
+.et-db #et-boc .et-l .et-fb-modules-list li[class^=dnxte] .et-fb-icon.et-fb-icon--svg {
+	fill: #fff!important;
+}
+/*======Module Icon CSS End ========*/
